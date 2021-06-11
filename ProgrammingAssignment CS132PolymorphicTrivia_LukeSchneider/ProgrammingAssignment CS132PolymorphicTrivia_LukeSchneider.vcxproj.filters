@@ -27,13 +27,13 @@
     <ClCompile Include="FillInBlank.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="MultipleChoice.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="TrueOrFalse.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="NumericQuestion.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MultipleChoice.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
@@ -47,13 +47,13 @@
     <ClInclude Include="FillInBlank.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="MultipleChoice.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="TrueOrFalse.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="NumericQuestion.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MultipleChoice.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

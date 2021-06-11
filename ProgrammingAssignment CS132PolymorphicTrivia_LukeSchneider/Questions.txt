@@ -37,7 +37,7 @@ MC4 2 What race of aquatic sentient beings does Jar-Jar Binks belong to? : The G
 MC3 1 Who killed Han Solo?  : Vader : Kylo Ren : Rey : Old Age
 MC4 1 Who built C-3P0? : Anakin Skywalker : Luke Skywalker : Jabba : Palpatine
 MC3 2 What is the name of the organization that builds a blockade around Naboo? : The Trade Federation : The Imperial Senate : The Sith
-MC3 1 Which actress starred as Queen Amidala's decoy and hand-maiden Sabè? :  Kiera Knightley : Natalie Portman : Daisy Ridley
+MC3 1 Which actress starred as Queen Amidala's decoy and hand-maiden Sabe? :  Kiera Knightley : Natalie Portman : Daisy Ridley
 FIB 3 What planet does Obi-Wan Kenobi travel to where he discovers an army of clones created for the Republic? _____ : Kamino
 MC3 2 Who is the Sith leader of the Separatist movement? :  Count Dooku : General Grevious : Palpatine
 MC3 1 What does the Emperor say is Luke's weakness? : His faith in his friends : His youth : His lack of foresight 
@@ -46,8 +46,8 @@ MC4 1 What do Han and Luke ride on in the snow on Hoth? : Tauntaun : Dewback : W
 FIB 1 Who is Jango Fett's son? ____ Fett : Boba
 TOF 1 Anakin's cuts off Count Dooku right hand?  : True
 MC4 1 What is Chancellor Palpatine's malicious Sith alter-ego?  : Darth Sidious :Darth Maul : Darth Plagus : Darth Vader
-NUM 2 In what “detention block” was Princess Leia being held in, in the first Death Star? AA-__  : 23
-MC3 1 What does “TIE” stand for in TIE Fighter? : Twin Ion Engines : Twin Ionic Emitters : Two Interior Exahaust
+NUM 2 In what 'detention block' was Princess Leia being held in, in the first Death Star? AA-__  : 23
+MC3 1 What does 'TIE' stand for in TIE Fighter? : Twin Ion Engines : Twin Ionic Emitters : Two Interior Exahaust
 FIB 3 Who is the senator that adopts Leia, and what planet is he from? Senator Bail Organa, from _______ : Alderaan
 MC3 2 "You were right," were whose last words? : Darth Vader : Darth Sidious : Han Solo
 NUM 1 What is the name of the order Darth Sidious gives the clone troopers, which means they will kill all Jedi? Order __ : 66
@@ -72,4 +72,4 @@ MC4 1 George Lucas' original last name for Luke was what? : Starkiller : Starfin
 NUM 1 Han Solo's trusty blaster is what type of blaster? DL-__ : 44
 MC4 3 What planet does Rey live on in The Force Awakens? : Jakku : Tatooine : Endor : Korriban
 FIB 2 What is Poe Dameron's droid called? ____ : BB-8
-NUM 3 How old was Padmè when she became Queen? : 14
+NUM 3 How old was Padme when she became Queen? : 14

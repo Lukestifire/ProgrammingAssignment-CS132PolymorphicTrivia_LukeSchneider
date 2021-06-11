@@ -1,0 +1,5 @@
+MC3 1 The Lord of the Rings movies are based on a novel by what author? : J.R.R Tolkein : H.G. Wells : J.K Rowling
+MC4 2 Who is the first voice we hear in the Fellowship of the Ring? : Galadriel : Frodo : Gandalf : Elraond
+FIB 3 The only way to destroy the Ring of Power is to throw it into the fires of Mount _________? : Doom
+NUM 1 How many memebers of the original fellowship of the ring :  9
+TOF 1 The name of the ent who carries Pippin and Merry throught Fangor Forest is Skinbark  : false

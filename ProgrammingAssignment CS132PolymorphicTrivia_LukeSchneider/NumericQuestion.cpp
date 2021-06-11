@@ -1,3 +1,8 @@
+
+// ProgrammingAssignment CS132PolymorphicTrivia
+// LukeSchneider
+// CS132 - 6/6/2021
+
 #include "NumericQuestion.h"
 #include <iostream>
 #include <iomanip>
@@ -7,6 +12,7 @@
 
 using namespace std;
 
+// Constructs a neumeric question object
 NumericQuestion::NumericQuestion(string x)
 {
 	question = questionParser(x);
@@ -14,6 +20,7 @@ NumericQuestion::NumericQuestion(string x)
 	answer = answerParser(x);
 }
 
+// Parses the correct answer from data - data always has correct answer in first position
 string NumericQuestion::answerParser(string x)
 {
 	int pos = 0;
@@ -22,6 +29,7 @@ string NumericQuestion::answerParser(string x)
 	return ltrim(x);
 }
 
+// Asks a numeric style question. 
 int NumericQuestion::askQuestion()
 {
 	string userAnswer = "";
@@ -45,7 +53,7 @@ int NumericQuestion::askQuestion()
 
 }
 
-
+// prints the numeric questions basic values
 void NumericQuestion::printMe()
 {
 	cout << question << endl;

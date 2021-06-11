@@ -4,6 +4,7 @@
 #include <numeric> 
 #include <functional>   // needed fo not1 and ptr_fun
 
+
 using namespace std;
 
 string upperCase(string x)
@@ -34,3 +35,8 @@ string rtrim(string s) {
 string trim(string s) {
    return ltrim(rtrim(s));
 }
+
+
+
+
+
