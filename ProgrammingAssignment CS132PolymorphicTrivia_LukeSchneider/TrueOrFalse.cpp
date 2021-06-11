@@ -1,20 +1,20 @@
-#include "FillInBlank.h"
+#include "TrueOrFalse.h"
 #include <iostream>
 #include <iomanip>
 #include <string>
 
 #include "ExtraFunctions.h"
 
-using namespace std; 
+using namespace std;
 
-FillInBlank::FillInBlank(string x)
+TrueOrFalse::TrueOrFalse(string x)
 {
 	question = questionParser(x);
 	points = pointsParser(x);
 	answer = answerParser(x);
 }
 
-string FillInBlank::answerParser(string x)
+string TrueOrFalse::answerParser(string x)
 {
 	int pos = 0;
 	pos = x.find(":");
@@ -22,10 +22,10 @@ string FillInBlank::answerParser(string x)
 	return ltrim(x);
 }
 
-int FillInBlank::askQuestion()
+int TrueOrFalse::askQuestion()
 {
 	string userAnswer = "";
-	cout << "This is a fill in the blank question worth " << getMax() << " points, please type in your answer as a value" << endl << endl;
+	cout << "This is a true or false question worth " << getMax() << " points, please type in your answer as a value 'True' or 'False'" << endl << endl;
 	cout << "Question : " << question << endl << endl;
 	cout << "-->";
 	cin.clear();
@@ -42,16 +42,12 @@ int FillInBlank::askQuestion()
 		return 0;
 	}
 
-	
 }
 
 
-void FillInBlank::printMe()
+void TrueOrFalse::printMe()
 {
-	cout << question << endl; 
+	cout << question << endl;
 }
-
-
-
 
 

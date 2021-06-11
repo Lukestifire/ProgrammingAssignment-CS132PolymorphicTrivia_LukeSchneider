@@ -1,20 +1,20 @@
-#include "FillInBlank.h"
+#include "NumericQuestion.h"
 #include <iostream>
 #include <iomanip>
 #include <string>
 
 #include "ExtraFunctions.h"
 
-using namespace std; 
+using namespace std;
 
-FillInBlank::FillInBlank(string x)
+NumericQuestion::NumericQuestion(string x)
 {
 	question = questionParser(x);
 	points = pointsParser(x);
 	answer = answerParser(x);
 }
 
-string FillInBlank::answerParser(string x)
+string NumericQuestion::answerParser(string x)
 {
 	int pos = 0;
 	pos = x.find(":");
@@ -22,16 +22,16 @@ string FillInBlank::answerParser(string x)
 	return ltrim(x);
 }
 
-int FillInBlank::askQuestion()
+int NumericQuestion::askQuestion()
 {
 	string userAnswer = "";
-	cout << "This is a fill in the blank question worth " << getMax() << " points, please type in your answer as a value" << endl << endl;
+	cout << "This is a numeric question worth " << getMax() << " points, please type in your answer as a value" << endl << endl;
 	cout << "Question : " << question << endl << endl;
 	cout << "-->";
 	cin.clear();
 	cin >> userAnswer;
 
-	if (upperCase(trim(userAnswer)) == upperCase(answer))
+	if (trim(userAnswer) == answer)
 	{
 		cout << "CORRECT" << endl << endl;
 		return getMax();
@@ -42,16 +42,16 @@ int FillInBlank::askQuestion()
 		return 0;
 	}
 
-	
+
 }
 
 
-void FillInBlank::printMe()
+void NumericQuestion::printMe()
 {
-	cout << question << endl; 
+	cout << question << endl;
+	cout << points << endl;
+	cout << answer << endl;
 }
-
-
 
 
 

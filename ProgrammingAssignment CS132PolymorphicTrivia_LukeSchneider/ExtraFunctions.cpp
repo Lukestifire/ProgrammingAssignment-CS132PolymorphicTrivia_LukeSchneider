@@ -1,3 +1,11 @@
+#include <string>
+#include <iostream>
+#include <algorithm>
+#include <numeric> 
+#include <functional>   // needed fo not1 and ptr_fun
+
+using namespace std;
+
 string upperCase(string x)
 {
     for(unsigned int i =0; i < x.size(); i++)
@@ -7,20 +15,22 @@ string upperCase(string x)
 }
 
 // trim from start
-std::string ltrim(std::string s) {
-   s.erase(s.begin(), std::find_if(s.begin(), s.end(),
-            std::not1(std::ptr_fun<int, int>(std::isspace))));
-   return s;
+string ltrim(string s) 
+{
+    //object.erase(begin, end);
+   s.erase(s.begin(), find_if(s.begin(), s.end(),
+            not1(ptr_fun<int, int>(isspace)))); // isspace is a function that looks at a char and dleliverers if it is or isn't a space char
+   return s; 
 }
 
 // trim from end
-std::string rtrim(std::string s) {
-   s.erase(std::find_if(s.rbegin(), s.rend(),
-            std::not1(std::ptr_fun<int, int>(std::isspace))).base(), s.end());
+string rtrim(string s) {
+   s.erase(find_if(s.rbegin(), s.rend(),
+            not1(ptr_fun<int, int>(isspace))).base(), s.end());
    return s;
 }
 
 // trim from both ends
-std::string trim(std::string s) {
+string trim(string s) {
    return ltrim(rtrim(s));
 }

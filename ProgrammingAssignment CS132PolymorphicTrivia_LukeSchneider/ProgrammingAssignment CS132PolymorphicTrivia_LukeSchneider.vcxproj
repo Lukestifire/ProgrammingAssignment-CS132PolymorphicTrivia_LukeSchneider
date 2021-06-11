@@ -141,13 +141,19 @@
   <ItemGroup>
     <ClCompile Include="ExtraFunctions.cpp" />
     <ClCompile Include="FillInBlank.cpp" />
+    <ClCompile Include="MultipleChoice.cpp" />
+    <ClCompile Include="NumericQuestion.cpp" />
     <ClCompile Include="ProgrammingAssignment CS132PolymorphicTrivia_LukeSchneider.cpp" />
     <ClCompile Include="TriviaQuestion.cpp" />
+    <ClCompile Include="TrueOrFalse.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="ExtraFunctions.h" />
     <ClInclude Include="FillInBlank.h" />
+    <ClInclude Include="MultipleChoice.h" />
+    <ClInclude Include="NumericQuestion.h" />
     <ClInclude Include="TriviaQuestion.h" />
+    <ClInclude Include="TrueOrFalse.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

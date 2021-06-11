@@ -1,12 +1,12 @@
 #pragma once
 #include "TriviaQuestion.h"
-class FillInBlank : public TriviaQuestion
+class NumericQuestion : public TriviaQuestion
 {
 private:
-	string answer;
+	string answer; 
 
 public:
-	FillInBlank(string);
+	NumericQuestion(string);
 	void printMe();
 
 	// Answer Parser
@@ -14,4 +14,5 @@ public:
 	int askQuestion();
 
 };
+
 

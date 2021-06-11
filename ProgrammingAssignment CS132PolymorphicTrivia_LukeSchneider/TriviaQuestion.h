@@ -7,7 +7,7 @@ using namespace std;
 
 class TriviaQuestion
 {
-private:
+protected:
 	int points;
 	string question;
 
@@ -15,27 +15,21 @@ public:
 	TriviaQuestion();
 	int virtual getMax();
 	int virtual askQuestion() = 0;
+	void virtual printMe();
 
 
-};
-
-FillInBlank : public TriviaQuestion
-
-
- MultipleChoice3 : public TriviaQuestion
+	// Parsers
+	int pointsParser(string);
+	string questionParser(string);
+	
 
 
-MultipleChoice4 : public TriviaQuestion
-
-
-
-TrueOrFalse : public TriviaQuestion
-
-
-
-class NumericQuestion : public TriviaQuestion
-{
 
 
 };
+
+
+
+
+
 
